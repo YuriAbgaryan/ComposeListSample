@@ -32,6 +32,8 @@ class LocalProductsRepositoryImpl @Inject constructor(
 
     internal var ttlMs: Long = TTL_MS
 
+    suspend fun clearCache() = dao.clearAll()
+
     internal suspend fun getCached(skip: Int): List<Product>? {
         val rows = dao.getProducts(
             skip = skip,
