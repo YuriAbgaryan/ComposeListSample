@@ -1,4 +1,4 @@
-# ProductsListApp
+# ComposeListSample App
 
 An Android app that fetches and displays a paginated product list from [DummyJSON](https://dummyjson.com/products), built as a reference implementation of **Clean Architecture + MVI** with an offline-first cache strategy.
 
