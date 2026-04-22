@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">List</string>
+    <string name="retry">Retry</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="error_couldnt_load_more">Could not load more</string>
+    <string name="back_to_top">Back to top</string>
+    <string name="failed_to_load_more">Failed to load more</string>
+    <string name="unknown_error">Unknown Error</string>
+</resources>
